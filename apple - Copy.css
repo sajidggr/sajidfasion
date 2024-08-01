@@ -1,0 +1,95 @@
+*{ 
+    margin: 0;
+    padding: 0;
+background-color: aliceblue;
+color: black;
+}
+#seca{
+    text-align: center;
+    font-size: 40px;
+}
+
+#secb{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+
+}
+#secc div{
+    background-image: url("pexels-julieaagaard-2766334.jpg");
+    background-size: cover;
+    height:500px;
+    margin: auto;
+    padding:auto;
+    margin-bottom: 20px;
+
+}
+#secc
+{
+margin: auto;
+padding: auto;
+}
+#secc h1{
+    text-align: center;
+    padding: auto;
+    padding: auto;
+    margin-top: 200px;
+}
+#secc button{
+    text-align: center;
+    padding: auto;
+    padding: auto;
+}
+
+#secd{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#secd div{
+    width: 25%;
+}
+#foot1 div li{
+    list-style: none;
+}
+#foot1{
+    display: flex;
+    justify-content: space-evenly;
+}
+#foot2{
+    text-align: center;
+    margin: 20px;
+}
+a{
+  text-decoration: none;
+  transition: .8s;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+@media(max-width:500px)
+{
+    *
+    {
+        background-color: aqua;
+    }
+    #foot1,#secd,#secb,#secc
+    {
+        display: block;
+        text-align: center;
+    }
+    #foot div{
+        width: 100%;
+    }
+    #secd div{
+        width: 100%;
+    }
+    #secb div{
+        width: 100%;
+    }
+    #secc div{
+        width: 100%;
+    }
+}
